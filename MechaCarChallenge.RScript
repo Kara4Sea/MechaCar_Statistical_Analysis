@@ -1,0 +1,17 @@
+#Part 1
+setwd("C:/Users/19082/Documents/Data_Analysis_Bootcamp/Module_16/R_Analysis")
+setwd("C:/Users/19082/Documents/Data_Analysis_Bootcamp/Module_16/R_Analysis/challenge")
+library(dplyr)
+mechacars_table <- read.csv(file = 'MechaCar_mpg.csv',check.names = F,stringsAsFactors = F)
+?lm()
+linear_table = lm(mpg~vehicle_length+vehicle_weight+spoiler_angle+ground_clearance+AWD, data=mechacars_table)
+summary(linear_table)
+#Part 2
+suspension_coil <- read.csv(file = 'Suspension_Coil.csv',check.names = F,stringsAsFactors = F)
+total_summary <- suspension_coil %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), Standard_deviation = sd(PSI), .groups = 'keep') 
+lot_summary <- suspension_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), Standard_deviation = sd(PSI), .groups = 'keep') 
+#Part 3
+t.test(suspension_coil$PSI,mu=1500)
+t.test(subset(suspension_coil, Manufacturing_Lot=="Lot1")$PSI,mu=1500)
+t.test(subset(suspension_coil, Manufacturing_Lot=="Lot2")$PSI,mu=1500)
+t.test(subset(suspension_coil, Manufacturing_Lot=="Lot3")$PSI,mu=1500)
