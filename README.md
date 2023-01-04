@@ -17,6 +17,36 @@ This linear model does predict mpg ofof MechaCar prototypes effectively. The mul
 
 ## Part 2 - Summary Statistics on Suspension Coils
 
+### Total Summary Dataframe
+![total_summary_df](https://user-images.githubusercontent.com/110419577/210623715-175ce265-d333-4630-a572-60491e4fa7cd.png)
+
+### Lot Summary Dataframe
+![lot_summary_df](https://user-images.githubusercontent.com/110419577/210623744-5f34e407-d1fc-4b30-ab3c-177807d60983.png)
+
+### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+The current manufacturing data meets the design specification for all manufacturing lots in total and for Lot 1 and Lot 2 individually. The design specifications dictate that the variation of the suspension coils must not exceed 100 pounds per square inch. The total summary meets this with a variance of 62.3. The individual variances for Lot 1 and Lot 2 meet this as well at 0.98 and 7.47 respectively. However, Lot 3 reflects of variance of 170.29, well over the 100 pound requirement.
+
 ## Part 3 - T-Tests on Suspension Coils
 
+### briefly summarize your interpretation and findings for the t-test results.
+
+![t-test_total](https://user-images.githubusercontent.com/110419577/210627517-fed36a16-bb00-48d3-9669-4f82b4a4f358.png)
+
+![t-test_lot1](https://user-images.githubusercontent.com/110419577/210627511-ba0161c3-112e-4c0d-a987-b6623083de27.png)
+![t-test_lot2](https://user-images.githubusercontent.com/110419577/210627513-dc81651f-79b3-49bc-a26c-303f4cfd1742.png)
+![t-test_lot3](https://user-images.githubusercontent.com/110419577/210627514-b35c5cfc-8617-4bde-a235-daaa4e9ba2a5.png)
+
+
+
 ## Part 4 - Study Design: MechaCar vs Competition
+
+### Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+
+### What metric or metrics are you going to test?
+
+### What is the null hypothesis or alternative hypothesis?
+
+### What statistical test would you use to test the hypothesis? And why?
+
+### What data is needed to run the statistical test?
