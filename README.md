@@ -9,7 +9,7 @@ Vehicle length and ground clearance (as well as intercept) provided a non-random
 ![linear_summary_table](https://user-images.githubusercontent.com/110419577/210616884-3d31a688-66fe-4b2e-9729-4627bf03d33d.png)
 
 ### Is the slope of the linear model considered to be zero? Why or why not?
-The slope of the linear model is not considered to be zero as r is measured at .7149. This is strong evidence of a positive linear relationship.
+The slope of the linear model is not considered to be zero as r is measured at 0.7149. This is strong evidence of a positive linear relationship.
 
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
@@ -29,7 +29,7 @@ The current manufacturing data meets the design specification for all manufactur
 
 ## Part 3 - T-Tests on Suspension Coils
 
-### briefly summarize your interpretation and findings for the t-test results.
+Assuming our significance level is at the standard 0.05 percent, our p-value is above our significance level for the total t-test as well as t-tests for Lot 1 and Lot 2. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the means for the total, Lot 1 and Lot 2 are statistically similar. However the p-value for Lot 3 is under 0.05 percent at 0.42. Therefore, we do have sufficient evidence to reject the null hypothesis and would state the two means for Lot 3 are not statistically similar.
 
 ![t-test_total](https://user-images.githubusercontent.com/110419577/210627517-fed36a16-bb00-48d3-9669-4f82b4a4f358.png)
 
