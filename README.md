@@ -58,4 +58,4 @@ I would utilize two-way ANOVA to test the means of a two different idependent va
 
 
 ### What data is needed to run the statistical test?
-I would need data for both MechaCar vehicles and competitor vehicles. This date would include make, model, price and safety rating. 
+I would need data for both MechaCar vehicles and competitor vehicles. This data would include make, model, price and safety rating. 
