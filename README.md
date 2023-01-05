@@ -49,16 +49,13 @@ I am going to test for cost and safety rating to establish the safest vehicles a
 
 ### What is the null hypothesis or alternative hypothesis?
 
-Hypothesis - If we collect different metrics around vehicle cost and safety rating, on average MechaCar vehicles should rate higher than the competition.
-
 Null Hypothesis - If ratings are not higher in MechaCar vehicles than in the competition, then we can conclude MechaCar vehicles do not rate higher than the competition.
 
 Alternative Hypothesis - If ratings are higher in MechaCar vehicles compared to the competition, we can conclude MechaCar vehicles rate higher than the competition.
 
 ### What statistical test would you use to test the hypothesis? And why?
-I would utilize Simple Linear Regression to understand how safety and price correlate to one another.
+I would utilize two-way ANOVA to test the means of a two different idependent variables (cost and safety rating) with multiple groups (vehicles being reviewed). 
 
-I would utilize a scatter plot to compare MechaCar vehicles to their competition.
 
 ### What data is needed to run the statistical test?
-MechaCar vehicles make and model, price and safety rating. Competitor vehicles with similar price and safety rating ranges along with their make and model.
+I would need data for both MechaCar vehicles and competitor vehicles. This date would include make, model, price and safety rating. 
