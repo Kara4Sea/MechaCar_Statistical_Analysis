@@ -54,7 +54,7 @@ Null Hypothesis - If ratings are not higher in MechaCar vehicles than in the com
 Alternative Hypothesis - If ratings are higher in MechaCar vehicles compared to the competition, we can conclude MechaCar vehicles rate higher than the competition.
 
 ### What statistical test would you use to test the hypothesis? And why?
-I would utilize two-way ANOVA to test the means of a two different idependent variables (cost and safety rating) with multiple groups (vehicles being reviewed). 
+I would utilize two-way ANOVA to test the means of a two different independent variables (cost and safety rating) with multiple groups (MechaCar vehicles and competitor vehicles). This will establish average safety rating and cost under all MechaCar vehicles to compare with competitors.
 
 
 ### What data is needed to run the statistical test?
